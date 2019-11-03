@@ -4,6 +4,8 @@ PareidoliaTriggerbot is an external Widowmaker triggerbot which uses the Vivienn
 
 This hack has remained undetected since its initial completion in early 2018.
 
+[![PareidoliaTriggerbot Clip](https://img.youtube.com/vi/XqaSmmckqps/maxresdefault.jpg)](https://www.youtube.com/watch?v=XqaSmmckqps "PareidoliaTriggerbot Clip")
+
 ## Usage
 
 See the [PareidoliaCL README](./PareidoliaCL/README.md).
