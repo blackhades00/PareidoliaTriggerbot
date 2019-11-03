@@ -12,16 +12,20 @@ In the following sections, words with the *CFG_KEY_* prefix refer to keybinds de
 
 2. Start the **PareidoliaCL** (client) executable.
 
-3. Wait for the client to display the following lines:
+3. Wait for the client to display the following line:
 
+    ```
     Waiting for Overwatch process. (Press CFG_KEY_EXIT_CLIENT_TEXT to exit client)
+    ```
 
 4. Start the Overwatch executable.
 
 5. Wait for the client to detect the Overwatch process and display the following lines:
 
+    ```
     Found Overwatch process. (ProcessId = OVERWATCH_PROCESS_ID)
     Press CFG_KEY_GET_OVERWATCH_CONTEXT_TEXT when Overwatch is at the main menu...
+    ```
 
 5. Wait for the Overwatch process to load to the main menu.
 
@@ -29,7 +33,9 @@ In the following sections, words with the *CFG_KEY_* prefix refer to keybinds de
 
 7. Wait for the client to display the following line:
 
+    ```
     Starting TB.
+    ```
 
 8. The triggerbot remains in the tick loop until the user presses the CFG_KEY_EXIT_CLIENT keybind to exit the client.
 

@@ -151,27 +151,27 @@ This repository uses the [MouClassInputInjection](https://github.com/changeofpac
 
 ## PareidoliaCL
 
-    The user mode triggerbot client.
+The user mode triggerbot client.
 
 ## PareidoliaTriggerbot
 
-    The kernel mode triggerbot driver.
+The kernel mode triggerbot driver.
 
 ## MouClassInputInjection
 
-    A kernel mode static library which implements mouse input injection. This project is a submodule.
+A kernel mode static library which implements mouse input injection. This project is a submodule.
 
 ## MouiiCL
 
-    A user mode static library which provides the client interface for mouse input injection. This project is a submodule.
+A user mode static library which provides the client interface for mouse input injection. This project is a submodule.
 
 ## VivienneCL
 
-    A user mode static library which provides the VivienneVMM interface for Capture Execution Context Register requests. This project is a submodule.
+A user mode static library which provides the VivienneVMM interface for Capture Execution Context Register requests. This project is a submodule.
 
 ## VivienneVMM
 
-    A kernel mode static library which implements the VivienneVMM interface. This project is a submodule.
+A kernel mode static library which implements the VivienneVMM interface. This project is a submodule.
 
 ## Warnings
 
