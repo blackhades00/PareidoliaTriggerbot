@@ -1,8 +1,8 @@
 [submodule "VivienneVMM"]
 	path = VivienneVMM
 	url = https://github.com/changeofpace/VivienneVMM.git
-	branch = feature/static-library-build-configurations
+	branch = submodule/pareidolia-triggerbot
 [submodule "MouClassInputInjection"]
 	path = MouClassInputInjection
 	url = https://github.com/changeofpace/MouClassInputInjection.git
-	branch = feature/static-library-build-configurations
+	branch = submodule/pareidolia-triggerbot
