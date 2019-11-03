@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PareidoliaTriggerbot">
+      <UniqueIdentifier>{cffb03ca-d654-4bb4-a275-42d69f6315cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PareidoliaTriggerbot\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="PareidoliaTriggerbot\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="MouClassInputInjection">
+      <UniqueIdentifier>{58629cad-f414-4e60-9e8d-3fd627e52f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HyperPlatform">
+      <UniqueIdentifier>{10af24fe-58f1-403c-b9ae-7bce5b5316b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VivienneVMM">
+      <UniqueIdentifier>{8e25171f-8220-4914-9e14-47b52f2b3438}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver.cpp">
+      <Filter>PareidoliaTriggerbot\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="object_util.cpp">
+      <Filter>PareidoliaTriggerbot\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="process_access_manager.cpp">
+      <Filter>PareidoliaTriggerbot\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="process_util.cpp">
+      <Filter>PareidoliaTriggerbot\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stealth.cpp">
+      <Filter>PareidoliaTriggerbot\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="system_util.cpp">
+      <Filter>PareidoliaTriggerbot\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pareidolia_triggerbot.cpp">
+      <Filter>PareidoliaTriggerbot\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nt.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="object_util.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process_access_manager.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process_util.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stealth.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="system_util.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\config.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ioctl.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VivienneVMM\VivienneVMM\HyperPlatform\HyperPlatform\driver.h">
+      <Filter>HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VivienneVMM\VivienneVMM\vivienne.h">
+      <Filter>VivienneVMM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MouClassInputInjection\MouClassInputInjection\driver.h">
+      <Filter>MouClassInputInjection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MouClassInputInjection\Common\ioctl.h">
+      <Filter>MouClassInputInjection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VivienneVMM\common\driver_io_types.h">
+      <Filter>VivienneVMM</Filter>
+    </ClInclude>
+    <ClInclude Include="pareidolia_triggerbot.h">
+      <Filter>PareidoliaTriggerbot\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VivienneVMM\VivienneVMM\log.h">
+      <Filter>VivienneVMM</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

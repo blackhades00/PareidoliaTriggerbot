@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PareidoliaCL">
+      <UniqueIdentifier>{1701b7f9-134e-49dc-b813-2ad16b795bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PareidoliaCL\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="PareidoliaCL\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="MouiiCL">
+      <UniqueIdentifier>{8a7fd2b7-116a-4161-a436-48420a8b4138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VivienneCL">
+      <UniqueIdentifier>{2f62c391-6741-41f3-b31f-f4f3ff8e849a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hde">
+      <UniqueIdentifier>{031858e2-9c84-4e2d-acc9-e5b2925a2547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hde\Header Files">
+      <UniqueIdentifier>{32d7dfaa-b5a3-4810-8be5-2d434249a3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hde\Source Files">
+      <UniqueIdentifier>{c72711ac-fe9d-4fd0-8047-af945fd9578b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hde\hde64.cpp">
+      <Filter>hde\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="disassembler.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="log.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memory_util.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="overwatch.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="process_util.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="time_util.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerbot.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pattern.cpp">
+      <Filter>PareidoliaCL\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\hde\hde.h">
+      <Filter>hde\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hde\hde_stdint.h">
+      <Filter>hde\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hde\hde64.h">
+      <Filter>hde\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\hde\table64.h">
+      <Filter>hde\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MouClassInputInjection\MouiiCL\driver.h">
+      <Filter>MouiiCL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MouClassInputInjection\MouiiCL\mouse_input_injection.h">
+      <Filter>MouiiCL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VivienneVMM\common\arch_x64.h">
+      <Filter>VivienneCL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VivienneVMM\common\driver_io_types.h">
+      <Filter>VivienneCL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VivienneVMM\VivienneCL\driver_io.h">
+      <Filter>VivienneCL</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="disassembler.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="memory_util.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdll.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="overwatch.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process_util.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="time_util.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\config.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ioctl.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pattern.h">
+      <Filter>PareidoliaCL\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
