@@ -1,6 +1,6 @@
 # PareidoliaTriggerbot
 
-PareidoliaTriggerbot is an external Widowmaker triggerbot which uses the VivienneVMM and MouClassInputInjection projects to bypass the Overwatch Anti-Cheat.
+PareidoliaTriggerbot is an external Widowmaker triggerbot which uses the [VivienneVMM](https://github.com/changeofpace/VivienneVMM) and [MouClassInputInjection](https://github.com/changeofpace/MouClassInputInjection) projects to bypass the Overwatch Anti-Cheat.
 
 This hack has remained undetected since its initial completion in early 2018.
 
