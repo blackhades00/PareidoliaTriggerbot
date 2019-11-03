@@ -6,7 +6,7 @@
 
 In the following sections, words with the *CFG_KEY_* prefix refer to keybinds defined in the [config file](../Common/config.h/).
 
-### Loading
+### Initialization
 
 1. Load the **PareidoliaTriggerbot** driver.
 
